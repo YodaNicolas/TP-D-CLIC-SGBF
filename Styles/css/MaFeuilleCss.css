@@ -1,0 +1,29 @@
+.AnnulateurMarge{
+    padding: 0px;
+    margin: 0px;
+}
+
+.TailleImageCard{
+    width: 18rem;
+    height: 15rem;
+}
+
+.BoxCard{
+    margin: 2rem;
+    display: flex;
+    gap: 4rem;
+    
+}
+.LargeurMax{
+width: 85%;
+}
+.Centreur{
+background-color: blueviolet;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.Clr{
+background-color: rgba(165, 42, 42, 0.745);
+}
