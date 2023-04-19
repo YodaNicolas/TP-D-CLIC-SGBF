@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monstera;
+}
+.margeur{
+    padding: 0;
+    margin: 0;
+}
+.CorpPage1{
+    z-index: 10;
+    position: sticky;
+    top: -130px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CorpPage{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HomeIco{
+    position: relative;
+    top: 8px;
+}
+.CmpletCorps{
+    position: relative;
+    bottom: 48px;
+}
+@font-face {
+    font-family: monstera;
+    src: url(../Montserrat/static/Montserrat-Regular.ttf);
+}
+.faso{
+    
+    font-family: "SourceSansPro",Arial,sans-serif;
+    font-size: 20px;    
+}
+.btn{
+background-color: red;
+color: white;
+width: 250px;
+height: 50px;
+border: none; 
+bottom: 15px;
+}
+.HautNav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+   justify-content: space-between;
+   justify-content: center;
+}
+header{
+    /* background-color: rgba(26, 219, 219, 0.551); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HautNav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 13px;
+    position: relative;
+    
+}
+.PositionListLien{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    /* top: 10px; */
+}
+
+
+.lettre{
+    position: relative;
+    
+    display: flex;
+    bottom:10px ;
+    align-items: center;
+    gap: 20px;
+}
+.Loup{
+    position: relative;
+    bottom: 4px;
+}
+.row{
+    position: relative;
+    
+}
+
+.entete{
+    z-index: 10;
+        width: 100%;
+        position: sticky;
+        top: -130px;
+        align-items: center;
+    }
+.ImagesCaroussel{
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+}
+.print{
+    width: 40px;
+    height: 47px;
+    position: relative;
+    left: 1210px;
+    bottom: 29px;
+}
+.Cardes{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+}
+.TailImDeCard{
+height: 140px;
+}
+.TitreCards{
+    height: 54px;
+    font-weight: 900;
+}
+.EspaceMotCard{
+    background-color: rgb(223, 223, 218);
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.LienCards{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.ContenantBtonNew{
+    display: flex;
+    flex-direction: column;
+}
+
+.BtnNew{
+    width: 100px;
+    border-radius: 0px;
+}
+.Chiffre{
+    font-size: 50px;
+}
+.DivDate{
+display: flex;
+flex-direction: column;
+align-items: end;
+width: fit-content;
+}
+.Moi{
+    position: relative;
+    bottom: 15px;
+}
+.Change{
+    background-color: rgb(223, 223, 218);
+}
+.LigneCarte{
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.cardtext{
+ font-weight: 900;
+}
+.Carte{
+    
+    width: 730px;
+    height: 230px;
+
+}
+.Rugbytxt{
+    width: 95%;
+    font-weight: 100;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+}
+.LigneCalcul{
+    position: relative;
+    top: 60px;
+}
+.bas{
+width: 100%;
+height: 300px;
+background-color: black;
+position: relative;
+top: 100px;
+}
+.Ligne1Footer{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: fit-content;
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+.DivContacter{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 30%;
+    height:fit-content;
+    color: white;
+}
+.DivSuivre{
+    display: flex;
+    justify-content: left;
+    width: 25%;
+    height:100%;
+    color: white;
+}
+.Nous{
+    font-weight: bold;
+    list-style: none;
+}
+.txtFotter{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+}
+
+/* AJOUT */
+
+
+.PrtclrTxt{
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    
+}
+.DivAdressPage{
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+}
+.TraiRouge{
+    position: relative;
+    right: 520px;
+    width: 120px;
+    background-color: red;
+    height: 18px;
+}
+.LienAdr{
+text-decoration: none;
+color: black;
+}
+.MargeurCardes{
+    margin-top: 30px;
+    height: 300px;
+}
+.CardIsole2{
+    display: flex;
+    flex-direction: row;
+    gap: 61px;
+}.bas{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    }
+    .Ligne1Footer{
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        height: fit-content;
+        position: relative;
+        top: 30px;
+        left: 80px;
+    }
+    .DivContacter{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 30%;
+        height:fit-content;
+        color: white;
+    }
+    .DivSuivre{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 30%;
+        height:100%;
+        /* background-color: chartreuse; */
+        color: white;
+    }
+    .Nous{
+        font-weight: bold;
+        list-style: none;
+        font-size: 18;
+    }
+    .txtFotter{
+        list-style: none;
+        color: white;
+        font-size: 12px;
+    }
+    .face{
+        position: relative;
+        right:1px;
+        width: 40px;
+        height: 60px;
+    }
+    .DerniereLigne{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        height:50px ;
+        /* background-color: chartreuse; */
+        position: relative;
+        top:90px ;
+        left: 115px;
+    }
+    .foot{
+     position: relative;
+     
+    }
+    .nos{
+        background-color: white;
+        width:90px;
+        height: 30px;
+        color:black;
+        display: flex ;
+        align-items: center;
+    }
+    .txt{
+        text-decoration: none;
+    }
+    
+    .DerniereLigne2{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 90%;
+        height:50px ;
+        
+        position: relative;
+        top:100px ;
+        left: 115px;
+    }
+    .PourTrais{
+        border-right-style: solid;
+        border-color: white;
+        padding-right: 8px;
+        border-width: 1px;
+    
+    }
+    .LienDern{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .arr{
+        position: relative;
+        left:430px ;
+        width:30px ;
+        height:30px ;
+    }
