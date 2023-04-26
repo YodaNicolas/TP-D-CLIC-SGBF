@@ -179,19 +179,17 @@ width: fit-content;
 }
 .LigneCarte{
     position: relative;
-    top: 30px;
+    top: 40px;
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 40px;
 }
 .cardtext{
  font-weight: 900;
 }
-.Carte{
-    
-    width: 730px;
-    height: 230px;
-
+.cdna{
+    position: relative;
+    left: 105px;
 }
 .Rugbytxt{
     width: 95%;
@@ -278,13 +276,13 @@ color: black;
 .CardIsole2{
     display: flex;
     flex-direction: row;
-    gap: 61px;
+    gap: 32px;
 }.bas{
     width: 100%;
     height: 300px;
     background-color: black;
     position: relative;
-    top: 100px;
+    top: 0px;
     }
     .Ligne1Footer{
         display: flex;

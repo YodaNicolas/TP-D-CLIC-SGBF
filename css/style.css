@@ -76,9 +76,14 @@ bottom: 15px;
     position: relative;
     /* bottom: 10px; */
 }
+.haut{
+    height: 500px;
+}
 
 .Cardes{
     width: 100%;
+    position: relative;
+    top: 20px;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
@@ -119,6 +124,7 @@ height: 140px;
     font-size: 50px;
 }
 .DivDate{
+    flex-wrap: wrap;
 display: flex;
 flex-direction: column;
 align-items: end;
@@ -129,23 +135,31 @@ width: fit-content;
     bottom: 15px;
 }
 .Change{
-    background-color: rgb(223, 223, 218);
+    background-color: rgb(255, 255, 255);
 }
 .LigneCarte{
     position: relative;
-    top: 30px;
+    top: 48px;
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 35px;
 }
 .cardtext{
  font-weight: 900;
 }
-.Carte{
-    
-    width: 730px;
-    height: 230px;
-
+.partieCarteEtSg{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+   height: 30px;
+  
+}
+.card-bodyp{
+    height: 200px;
+}
+.cdna{
+    position: relative;
+    left: 105px;
 }
 .Rugbytxt{
     width: 95%;
@@ -156,6 +170,8 @@ width: fit-content;
     bottom: 15px;
 }
 .LigneCalcul{
+    display: flex;
+    gap: 45px;
     position: relative;
     top: 60px;
 }
@@ -253,6 +269,7 @@ top: 100px;
     border-width: 1px;
 
 }
+
 .LienDern{
     color: white;
     text-decoration: none;
